@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>ReCompV2</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+	<script src="js/jquery.min.js" type="text/javascript"></script>
+     <script src="js/typed.js" type="text/javascript"></script>
+<script type="text/javascript">
+ $(document).ready(function() {
+ $("body").css("display", "none");
+ $("body").fadeIn(3200);
+ });
+</script>
+<!-- arcticModal -->
+<script src="js/jquery.arcticmodal-0.3.min.js"></script>
+<link rel="stylesheet" href="js/jquery.arcticmodal-0.3.css">
+
+<!-- arcticModal theme -->
+<link rel="stylesheet" href="css/simple.css">
+</head>
+<body>
+	<div class="navheader">
+<nav class="cl-effect-15">
+    <a href="#" data-hover="Главная"><span>Главная</span></a>
+    <a href="#" data-hover="Услуги"><span>Услуги</span></a>
+    <a href="#" data-hover="Документация"><span>Документация</span></a>
+</nav>
+<div class="wrap">
+        <div class="type-wrap">
+            <span id="typed" style="white-space:pre;"></span>
+        </div>
+    </div>
+</div>
+<div class="textconBlock">
+<div class="textcon">
+    <h1>Ремонт компьютеров</h2>
+        <p>Ремонт компьютеров, с выездом на дом специалиста. В г.Краноярск.<br />
+            Компьютерная техника давно стала частью нашей жизни, у кого то из нас новые компьютеры у кого то старые, кто то их использует для работы, кто то для игр, кто то для развлечения, не изменным остаётся только одно, они все рано или поздно ломаются, да это техника, у которой что то может выйти из стороя, может сгореть чип, или на жёстком диске появится много битых секторов, так же вы можете по своей не внимательности поймать вирус, или ещё что хуже .no_more_ransom, тогда вам не с добравать, ведь что бы рассшифровать такие файлы нужно время. Мир комьютерной техники очень разнообразен, не подготовленный пользователь может столкнутся с трудностями в её настройке подключении, так же бывают случаии когда без чательной диагностики не обойтись.
+        </p>
+    </div>
+</div>
+    <div class="about">
+      <h2>Услуги компании</h2>
+      <div class="price1">
+        <h3 class="pricezag">Установка Windows</h3>
+        <p class="promo">Установка Windows 7, 8, 8.1, 10<p>
+            <p class="bonus">Подарок от компании:</p>
+                <ul class="bonusli">
+                <li>+Drivers</li>
+                <li>+Antivirus</li>
+                <li>+Brower</li>
+            </ul>
+            <br/>
+            <p class="bay">Цена: 1000 руб.</p>
+      </div>
+      <div class="price2">
+        <h3 class="pricezag">Ремонт ноутбуков</h3>
+        <p class="promo">Быстрый ремонт ноутбуков<p>
+            <p class="bonus">Что умеем делать быстро?</p>
+            <ul class="bonusli">
+                <li>Менять экран</li>
+                <li>Менять клавиатуру</li>
+                <li>Менять накопитель</li>
+            </ul>
+         <br/>
+            <p class="bay">Цена: от 1000 руб.</p>
+      </div>
+      <div class="price3">
+        <h3 class="pricezag">Настройка интернета<br/>
+            </h3>
+        <p class="promo">Настройка сетевого оборудования<p>
+            <p class="bonus">А именно:</p>
+                <ul class="bonusli">
+                <li>Роутеров</li>
+                <li>Модемов</li>
+                <li>Обжимка кабелей</li>
+            </ul>
+            <br/>
+            <p class="bay">Цена: от 500 руб.</p>
+      </div>
+  </div>
+         <!--Модаль с прайс листом-->
+         <div class="modal" style="display:block">
+          <span class="m-dotted" id="#example1" onclick="$('#exampleModal1').arcticmodal()">Простое модальное окно</span>
+          <div class="g-hidden">
+            <div class="box-modal" id="exampleModal1">
+              <div class="box-modal_close arcticmodal-close">закрыть</div>
+              Пример простого модального окна
+            </div>
+          </div>
+          <pre><code class="javascript">$(<span class="string">'#exampleModal1'</span>).arcticmodal();</code></pre>
+          <br>
+         </div>  
+      <!--Схема работы-->
+      <div class="shemarab">
+            <div class="work1">
+              <p class="worktext">Вы нам звоните и рассказываете о своей проблеме</p>
+            </div>
+            <div class="work2">
+              <p class="worktext">Мы рассказываем вам как хотим её решить, а так же сколько это будет стоить</p>
+            </div>
+            <div class="work3">
+              <p class="worktext">Мы решаем вашу проблему</p>
+            </div>
+            <div class="work4">
+              <p class="worktext">Вы рассчитываетесь за оказаные услуги</p>
+            </div>
+      </div>
+    <!--Typed js скрипт набора текста в шапке сайта-->
+    <script>
+      $(function(){
+   $('#exampleModal1').arcticmodal();
+});
+    </script>
+<script>
+	$(function(){
+
+        $("#typed").typed({
+            strings: ["Долго загружается компьютер?", "Поймали вирусы?", "Не включается? ", "Пора добавить мощьности?", "Синий экран?! Плохо плохо", "Пора позвонить специалистам!+7-999-440-67-45"],
+            typeSpeed: 30,
+            backDelay: 500,
+            loop: false,
+            // defaults to false for infinite loop
+            loopCount: false,
+            callback: function(){ foo(); },
+            resetCallback: function() { newTyped(); }
+        });
+
+        $(".reset").click(function(){
+            $("#typed").typed('reset');
+        });
+
+    });
+
+    function newTyped(){ /* A new typed object */ }
+
+    function foo(){ console.log("Callback"); }
+
+</script>
+<!--Конецц-->
+
+		</body>
+		</html>

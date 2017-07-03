@@ -1,0 +1,326 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	background: #eaeaea;
+
+}
+h2{
+  text-align: center;
+  font-family: «Lato», Georgia, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 22pt;
+  color:#444040;
+}
+.navheader{
+	background: #B17794;
+	height: 400px;
+	width: 100%;
+}
+nav{
+	background: #B17794;
+	font-family: Roboto, arial;
+	font-size: 14pt;
+
+}
+nav a {
+	margin: 20px;
+}
+nav {
+	padding-top: 10px;
+}
+.cl-effect-15 a {
+    color: rgba(0,0,0,0.8);
+    font-weight: 300;
+    text-shadow: none;
+}
+ 
+.cl-effect-15 a::before {
+    color: #fff;
+    content: attr(data-hover);
+    position: absolute;
+    transition: transform 0.3s, opacity 0.3s;
+}
+ 
+.cl-effect-15 a:hover::before,
+.cl-effect-15 a:focus::before {
+    transform: scale(0.9);
+    opacity: 0;
+}
+
+}
+/*Анимация набора текста*/
+.typed-cursor{
+            opacity: 1;
+            font-weight: 100;
+            -webkit-animation: blink 0.7s infinite;
+            -moz-animation: blink 0.7s infinite;
+            -ms-animation: blink 0.7s infinite;
+            -o-animation: blink 0.7s infinite;
+            animation: blink 0.7s infinite;
+        }
+        @-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-webkit-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-moz-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-ms-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        @-o-keyframes blink{
+            0% { opacity:1; }
+            50% { opacity:0; }
+            100% { opacity:1; }
+        }
+        /*Конец набора*/
+ .wrap{
+ 	padding-top: 8%;
+ 	
+ }
+.type-wrap{
+	height: 60px;
+	width: 500px;
+	margin: 0 auto;
+	background: rgb(68,68,68);
+	border-radius: 4px;
+    position: relative;
+	
+
+}
+#typed{
+	font-size: 14pt;
+	color:#fff;
+	font-family: «Lato», Georgia, Arial, sans-serif;
+}
+
+.textcon{
+    padding-top: 30px;
+	color: #444040;
+	font-size: 14pt;
+    font-family: «Lato», Georgia, Arial, sans-serif;
+	font-weight: 300;
+	width: 700px;
+	margin: 0 auto;
+	line-height: 25px;
+}
+.textcon h1{
+    font-size: 22pt;
+    color: rgb(68, 68, 68, 0);
+     font-family: «Lato», Georgia, Arial, sans-serif;
+   font-weight: 300;
+    width: 700px;
+    text-align: center;
+    line-height: 50px;
+    
+}
+.textconBlock{
+    height: 450px;
+    width: 100%;
+    background: #FFFFFF;
+}
+.about{
+    overflow: hidden;
+    width: 100%;
+}
+.about h2{
+      font-size: 22pt;
+      color: rgb(68, 68, 68, 0);
+     font-family: «Lato», Georgia, Arial, sans-serif;
+      font-weight: 300;
+      text-align: center;
+      line-height: 70px;
+
+}
+.price1{
+    float: left;
+    width: 23.5%;
+    height: 300px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 15px 0px #444040;
+    margin: 4.5%;
+
+
+}
+.price2 li{
+     list-style-type: none;
+}
+.price2{
+    float: left;
+    width: 23.5%;
+    height: 300px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 15px 0px #444040;
+    margin: 4.5%;
+
+}
+.price1 li{
+     list-style-type: none;
+}
+.price3{
+     display: inline-block;
+    width: 23.5%;
+    height: 300px;
+    text-align: center;
+    background: #fff;
+    box-shadow: 0 0 15px 0px #444040;
+    margin: 4.5%;
+
+}
+.price3 li{
+     list-style-type: none;
+}
+.price1, .price2, .price3{
+     font-size: 14pt;
+      color: rgb(68, 68, 68, 0);
+     font-family: «Lato», Georgia, Arial, sans-serif;
+      font-weight: 300;
+      text-align: center;
+      line-height: 22px;
+      border-radius: 4px;
+      box-shadow: 0 0 15px 0px #444040;
+
+
+}
+.pricezag{
+    padding-top: 3px;
+    font-size: 18pt;
+    height: 30px;
+    width: 100%;
+    background: #4585C4 ;
+    color: #fff;
+    font-family: «Lato», Georgia, Arial, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    border-radius: 4px;
+}
+.promo{
+   line-height: 70px;
+   color: #444040;
+}
+.bonus{
+    color: #444040;
+}
+.bonusli{
+    color: #444040;
+}
+.price1:hover{
+     box-shadow: 0 0 15px 0px #3046BB;
+     transition-duration: 0.7s;
+}
+.price2:hover{
+     box-shadow: 0 0 15px 0px #3046BB;
+     transition-duration: 0.7s;
+}
+
+.price3:hover{
+     box-shadow: 0 0 15px 0px #3046BB;
+     transition-duration: 0.7s;
+}
+.bay{
+    height: 50px;
+    width: 80%;
+    background: #1FC13A ; 
+    color: #fff;
+    text-align: center;
+    margin:0 auto;
+    line-height: 50px;
+    border-radius: 5px;
+
+}
+.dropme{
+  width: 100%;
+}
+.dropblock{
+  height: 75px;
+  width: 100%;
+  background: url(../img/arrow.png)  no-repeat center center;
+
+}
+.dropblock p{
+  text-align: center;
+  font-family: «Lato», Georgia, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 12pt;
+  color:#444040;
+}
+.dropblock:hover{
+  background-color:#BEBEAC;
+  background-image: url(../img/arrow.png)  no-repeat center center;
+   opacity: 0.7;
+}
+#clicktodrop{
+  height: 75px;
+  width: 100%;
+}
+#hidden{
+   text-align: center;
+}
+.shemarab{
+  height: 400px;
+  width: 100%;
+  background:#3A9DFD;
+}
+.work1{
+  width: 25%;
+  height: 400px;
+  background-image: url(../img/call.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+  float: left;
+}
+.work2{
+  width: 25%;
+  height: 400px;
+  background-image: url(../img/dogovor.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+  float: left;
+}
+.work3{
+  width: 25%;
+  height: 400px;
+  background-image: url(../img/work.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+  float: left;
+}
+.work4{
+  width: 25%;
+  height: 400px;
+  background-image: url(../img/card.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100px;
+  float: left;
+}
+.worktext{
+  text-align: center;
+  font-family: «Lato», Georgia, Arial, sans-serif;
+  font-weight: 300;
+  font-size: 14pt;
+  color: #EBEAEA;
+  margin-top: 23%;
+}
+.m-dotted{
+  color:#106d9f;
+  border-bottom: 1px dotted #106d9f;
+  cursor: pointer;
+}
